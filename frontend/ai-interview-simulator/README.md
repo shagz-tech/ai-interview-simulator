@@ -1,16 +1,77 @@
-# React + Vite
+# AI Interview Simulator — Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based AI Interview Simulator designed to provide users with an interactive interview practice experience.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The frontend is built using React and Vite. It provides the user interface for the AI Interview Simulator, with a focus on a simple, responsive, and user-friendly experience.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- Vite
+- CSS
+- ESLint
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+frontend/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── Pages/
+│   │   └── InterviewSetup.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## Getting Started
+
+### 1. Navigate to the frontend directory
+
+```bash
+cd frontend/ai-interview-simulator
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in the terminal to view the application.
+
+## Development
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+To check the code using ESLint:
+
+```bash
+npm run lint
+```
+
+## Project Status
+
+The frontend is under development. More pages, features, and UI improvements will be added as the project progresses.
+
+## License
+
+This project is developed for educational and project purposes.
